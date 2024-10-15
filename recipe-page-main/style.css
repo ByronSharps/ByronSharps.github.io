@@ -17,6 +17,7 @@
 }
 
 body {
+  font-family: "Outfit", serif;
   background-color: var(--stone100);
 }
 
@@ -31,9 +32,25 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 50%;
   height: 1000px;
   background-color: var(--white);
-  margin: 100px auto;
+  margin: 125px auto;
   border-radius: 20px;
+  padding: 40px;
+}
+
+img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  font-family: "Young Serif", serif; /* CAMBIARE IL LINE HEIGHT E LA SPAZIATURA LETTERE */
+  font-size: 20px;
+}
+
+.description {
+  font-size: 8px;
 }
